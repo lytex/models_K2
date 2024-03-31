@@ -90,3 +90,7 @@ ENV/
 
 # PyCharm
 .idea/
+bazel-bin
+bazel-models_K2
+bazel-out
+bazel-testlogs
