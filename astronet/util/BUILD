@@ -14,6 +14,12 @@ py_library(
 )
 
 py_library(
+    name = "config_util",
+    srcs = ["config_util.py"],
+    srcs_version = "PY2AND3",
+)
+
+py_library(
     name = "configdict",
     srcs = ["configdict.py"],
     srcs_version = "PY2AND3",
